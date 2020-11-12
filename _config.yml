@@ -1,0 +1,7 @@
+# word count
+#find book/docs/chapters \( ! -regex '.*/\..*' \) -name '*.ipynb' -print0 |   wc -w --files0-from=-
+
+# Book settings
+title: Research Methods in Psychology
+author: Paul C. Price, Rajiv Jhangiani, I-Chant A. Chiang, Dana C. Leighton, Matthew J. C. Crump, & Christian C. Luhmann
+logo: logo.png

@@ -1,0 +1,19 @@
+- file: introduction
+  numbered: true
+
+- file: content/01-PsychScience
+- file: content/02-GettingStarted
+- file: content/03-Measurement
+- file: content/04-SingleFactor
+- file: content/05-Factorial
+- file: content/06-Theory
+- file: content/07-Ethics
+- file: content/08-Control
+- file: content/09-Nonexperimental
+- file: content/10-Survey
+- file: content/11-Single
+- file: content/12-Presenting
+- file: content/13-Descriptives
+- file: content/14-Inferential
+- file: content/zbibliography
+- file: LICENSE
