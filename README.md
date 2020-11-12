@@ -1,4 +1,11 @@
-This is a free and open source Research Methods textbook for Psychology.
+# Research Methods in Psychology
+
+This is a fork of the free and open source textbook _Research Methods in Psychology_ (full credits below).  This version of the book, the Stony Brook edition, is a [Jupyter Book](jupyterbook.org) version of the bookdown version created by [Matthew Crump](crumplab.github.io).  This edition also reflects additional changes.  Please see the revision history if you are interested in specific differences between editions.
+
+
+
+
+## Credits
 
 This textbook is an adaptation of one originally written by Paul C. Price (California State University, Fresno) and adapted by The Saylor Foundation under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License without attribution as requested by the work's original creator or licensee. The original text is available [here](https://www.saylor.org/books/).
 
