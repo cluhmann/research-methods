@@ -25,7 +25,7 @@ However, the other response, also previewed above, is that science education is 
 
 John Moore {cite}`moore1999science` writes that science is a special way of learning about the world (including chocolate).  People, both the general public and those who have completed formal educational programs, are often confused by this.  It is common to hear people talk about "science" as if it is body of knowledge; a set of "facts" and "laws" that must be accepted if one is to be a sensible, scientifically-minded individual.  But science is not knowledge in the same way that cooking is not food.  This is why the conventional approach to scientific education is so deficient.  It given the impression that studying "all the facts" is all one needs.  But evidence accumulates and shifts and knowledge of answers to old questions do not apply to new questions.  Bodies of knowledge cannot keep up with a changing world, but the tools to tackle questions can.
 
-Epistemology is a branch of philosophy concerned with the quesiton "What do we know?"  There are all sorts of routes to knowledge.  None of them (or almost none) can guarantee the sort of knowledge we ultimately desire: **true knowledge**.  But the scientific method gives us our best shot.  Ready?
+Epistemology is a branch of philosophy concerned with the question "What do we know?"  There are all sorts of routes to knowledge.  None of them (or almost none) can guarantee the sort of knowledge we ultimately desire: **true knowledge**.  But the scientific method gives us our best shot.  Ready?
 
 
 ## References
