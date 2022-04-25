@@ -1,12 +1,15 @@
 # Psychological Science
 
-> Science knows no country, because knowledge belongs to humanity, and is the torch which illuminates the world.
->
-> -Louis Pasteur
+```{epigraph}
+Science knows no country, because knowledge belongs to humanity, and is the torch which illuminates the world.
 
-> We live in a society exquisitely dependent on science and technology, in which hardly anyone knows anything about science and technology
->
-> -Carl Sagan
+-- Louis Pasteur
+```
+```{epigraph}
+We live in a society exquisitely dependent on science and technology, in which hardly anyone knows anything about science and technology.
+
+-- Carl Sagan
+```
 
 Many people believe that women tend to talk more than men—with some even suggesting that this difference has a biological basis. One widely cited estimate is that women speak 20,000 words per day on average and men speak only 7,000. This claim seems plausible, but is it true? A group of psychologists led by Matthias Mehl decided to find out. They checked to see if anyone had actually tried to count the daily number of words spoken by women and men. No one had. So these researchers conducted a study in which female and male college students (369 in all) wore audio recorders while they went about their lives. The result? The women spoke an average of 16,215 words per day and the men spoke an average of 15,669—an extremely small difference that could easily be explained by chance. In an article in the journal Science, these researchers summed up their findings as follows: “We therefore conclude, on the basis of available empirical evidence, that the widespread and highly publicized stereotype about female talkativeness is unfounded” {cite}`mehl_are_2007`.
 
@@ -16,7 +19,7 @@ This course is an introduction to the process of using the scientific process to
 
 ## Understanding Science
 
-##### Learning Objectives
+### Learning Objectives
 
 1.  Define science.
 
@@ -46,7 +49,7 @@ A good example of the self-correcting nature of science is the "Many Labs Replic
 
 ### Science Versus Pseudoscience
 
-##### Skeptic’s Dictionary
+#### Skeptic’s Dictionary
 
 The Skeptic’s Dictionary is an excellent source for information on pseudoscience <http://www.skepdic.com>. Among the pseudoscientific beliefs and practices you can learn about are the following:
 
@@ -107,7 +110,7 @@ As another example, consider that as cell phones became more widespread during t
 
 ### Who Conducts Scientific Research in Psychology?
 
-##### Scientific Psychology Blogs
+#### Scientific Psychology Blogs
 
 A fun and easy way to follow current scientific research in psychology is to read any of the many excellent blogs devoted to summarizing and commenting on new findings. Among them are the following:
 
@@ -154,7 +157,7 @@ Scientific research is often classified as being either *basic* or *applied*. Ba
 
 ## Science and Common Sense
 
-##### Learning Objectives
+### Learning Objectives
 
 1.  Explain the limitations of common sense when it comes to achieving a detailed and accurate understanding of human behavior.
 
@@ -168,7 +171,7 @@ Some people wonder whether the scientific approach to psychology is necessary. C
 
 ### How Could We Be So Wrong?
 
-##### Common Myths
+#### Common Myths
 
 In 50 Great Myths of Popular Psychology, psychologist Scott Lilienfeld and colleagues {cite}`lilienfeld_50_2011` discuss several widely held "commonsense" beliefs about human behavior that *scientific research has shown to be incorrect*. Here is a short list:
 
@@ -184,7 +187,7 @@ In 50 Great Myths of Popular Psychology, psychologist Scott Lilienfeld and colle
 
 How can so many of our intuitive beliefs about human behavior be so wrong? Notice that this is an empirical question, and it just so happens that psychologists have conducted scientific research on it and identified many contributing factors {cite}`gilovich_how_2008`. One is that forming detailed and accurate beliefs requires powers of observation, memory, and analysis to an extent that we do not naturally possess. It would be nearly impossible to count the number of words spoken by the women and men we happen to encounter, estimate the number of words they spoke per day, average these numbers for both groups, and compare them—all in our heads. This is why we tend to rely on mental shortcuts (what psychologists refer to as heuristics) in forming and maintaining our beliefs. For example, if a belief is widely shared—especially if it is endorsed by "experts" - and it makes intuitive sense, we tend to assume it is true. This is compounded by the fact that we then tend to focus on cases that confirm our intuitive beliefs and not on cases that conflict with them. This is called *confirmation bias*. For example, once we begin to believe that women are more talkative than men, we tend to notice and remember talkative women and silent men but ignore or forget silent women and talkative men. We also hold incorrect beliefs in part because it would be nice if they were true. For example, many people believe that calorie-reducing diets are an effective long-term treatment for obesity, yet a thorough review of the scientific evidence has shown that they are not {cite}`mann_medicares_2007`. People may continue to believe in the effectiveness of dieting in part because it gives them hope for losing weight if they are obese or makes them feel good about their own "self-control" if they are not.
 
-##### Cognitive Biases
+#### Cognitive Biases
 
 Psychologists have identified numerous biases that influence how people think, reason, and make judgments about the world around them. Wikipedia maintains [a long list of these biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases) that you can check out.
 
@@ -212,7 +215,7 @@ Because there is often not enough evidence to fully evaluate a belief or claim, 
 
 ## Science and Clinical Practice
 
-##### Learning Objectives
+### Learning Objectives
 
 1.  Define the clinical practice of psychology and distinguish it from the science of psychology.
 
@@ -222,7 +225,7 @@ Because there is often not enough evidence to fully evaluate a belief or claim, 
 
 Psychology is the scientific study of behavior and mental processes. But it is also the application of scientific research to "help people, organizations, and communities function better" (American Psychological Association, 2011). By far the most widely known application is the clinical practice of psychology - the diagnosis and treatment of psychological disorders and related problems. Let us use the term clinical practice broadly to refer to the activities of clinical and counseling psychologists, school psychologists, marriage and family therapists, licensed clinical social workers, and others who work with people individually or in small groups to identify and help address their psychological problems. It is important to consider the relationship between scientific research and clinical practice because many students are especially interested in clinical practice, perhaps even as a career.
 
-##### Empirically Supported Treatments
+### Empirically Supported Treatments
 
 An empirically supported treatment is one that has been studied scientifically and shown to result in greater improvement than no treatment, a placebo, or some alternative treatment. These include many forms of psychotherapy, which can be as effective as standard drug therapies. Among the forms of psychotherapy with strong empirical support are the following:
 

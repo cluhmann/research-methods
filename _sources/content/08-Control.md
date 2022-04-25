@@ -1,12 +1,16 @@
 # Control Problems
 
-> Ya know, someday these scientists are gonna invent something that will outsmart a rabbit
->
-> -Bugs Bunny
+```{epigraph}
+Ya know, someday these scientists are gonna invent something that will outsmart a rabbit
 
-> Hewwo! Acme Pest Contwol? Weww I have a pest I want contwolled.
->
-> -Elmer Fudd
+-- Bugs Bunny
+```
+```{epigraph}
+Hewwo! Acme Pest Contwol? Weww I have a pest I want contwolled.
+
+-- Elmer Fudd
+```
+
 
 Elmer Fudd is always being outsmarted by Bugs Bunny. If Elmer Fudd was a psychologist, he might say "Be vewy vewy quiet, I'm conducting an expewiment". But, we all know how the experiment would turn out. Bugs Bunny would find a way to foil Elmer Fudd's plans and ruin his experiment. Bugs Bunny is a metaphor for all of the control problems that can plague experiments. In this chapter we discuss many common problems that are well known, how they confound the interpretation of experimental results, and practical solutions for solving the problems. Bugs Bunny wasn't wrong: Scientists have learned how to outsmart rabbits.
 

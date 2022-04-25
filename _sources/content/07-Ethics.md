@@ -1,8 +1,11 @@
 # Research Ethics
 
-> Ethics and equity and the principles of justice do not change with the calendar.
-> 
-> D. H. Lawrence
+```{epigraph}
+Ethics and equity and the principles of justice do not change with the calendar.
+
+-- D. H. Lawrence
+```
+
 
 In 1998 a medical journal called The Lancet published an article of interest to many psychologists. The researchers claimed to have shown a statistical relationship between receiving the combined measles, mumps, and rubella (MMR) vaccine and the development of autism. Furthermore, the article suggested that the vaccine might even *cause* autism. One result of this report was that many parents decided not to have their children vaccinated, which of course put them at higher risk for measles, mumps, and rubella. However, follow-up studies by other researchers consistently failed to find a relationship between the MMR vaccine and autism and it is now accepted now that there is no relationship. In addition, several more serious problems with the original research were uncovered. Among them were that the lead researcher stood to gain financially from his conclusions because he had patented a competing measles vaccine. He had also used biased methods to select and test his research participants and had used unapproved and medically unnecessary procedures on them. In 2010 The Lancet retracted the article, and the lead researcher's right to practice medicine was revoked {cite}`burns_council_2010`.
 
