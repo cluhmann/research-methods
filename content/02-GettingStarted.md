@@ -1,20 +1,21 @@
 # Getting Started
 
-> So much time and so little to do. Wait a minute. Strike that. Reverse it. Thank you.
->
-> - Willy Wonka
+```{epigraph}
+So much time and so little to do. Wait a minute. Strike that. Reverse it. Thank you.
 
+-- Willy Wonka
+```
 ---
 
 Here is the abstract of a 2014 article in the journal _Psychological Science_:
 
-*"Taking notes on laptops rather than in longhand is increasingly common. Many researchers have suggested that laptop note taking is less effective than longhand note taking for learning. Prior studies have primarily focused on students' capacity for multitasking and distraction when using laptops. The present research suggests that even when laptops are used solely to take notes, they may still be impairing learning because their use results in shallower processing. In three studies, we found that students who took notes on laptops performed worse on conceptual questions than students who took notes longhand. We show that whereas taking more notes can be beneficial, laptop note takers' tendency to transcribe lectures verbatim rather than processing information and reframing it in their own words is detrimental to learning."* {cite}`mueller_pen_2014`.
+> Taking notes on laptops rather than in longhand is increasingly common. Many researchers have suggested that laptop note taking is less effective than longhand note taking for learning. Prior studies have primarily focused on students' capacity for multitasking and distraction when using laptops. The present research suggests that even when laptops are used solely to take notes, they may still be impairing learning because their use results in shallower processing. In three studies, we found that students who took notes on laptops performed worse on conceptual questions than students who took notes longhand. We show that whereas taking more notes can be beneficial, laptop note takers' tendency to transcribe lectures verbatim rather than processing information and reframing it in their own words is detrimental to learning. {cite}`mueller_pen_2014`.
 
 In this abstract, the researcher has identified a research question - about the effect of taking notes on a laptop on learning - and identified why it is worthy of investigation - because the practice is ubiquitous and may be harmful for learning. In terms of the general model of scientific research in psychology presented in {numref}`Figure {number} <fig:Theresearchprocess>`, these are activities at the "top" of the cycle. In this chapter, we focus on these activities - finding research ideas, turning these ideas into interesting empirical research questions, and reviewing the research literature. We begin, however, with some more basic concepts that are necessary to understand how research questions in psychology are conceptualized.
 
 ## Basic Concepts
 
-##### Learning Objectives
+### Learning Objectives
 
 1.  Define the concept of a variable, distinguish quantitative from categorical variables, and give examples of variables that might be of interest to psychologists.
 
@@ -57,7 +58,7 @@ There are two basic forms of statistical relationship: differences between group
 ---
 name: fig:Bargraph
 ---
-Bar Graph Showing the Very Small Difference in the Mean Number of Words Spoken per Day by Women and Men in a Large Sample. Based on data from Mehl, M. R., Vazire, S., Ramirez-Esparza, N., Slatcher,  R. B., & Pennebaker, J. W. (2007). "Are Women Really More Talkative Than Men?", _Science_, 317, 82.
+Bar graph showing the very small difference in the mean number of words spoken per day by women and men in a large sample. Based on data from {cite}`mehl_are_2007`.
 ```
 
 Differences between groups are usually described by giving the average score for each group. This information can also be presented in a bar graph like that in {numref}`Figure {number} <fig:Bargraph>`, where the heights of the bars represent the averages for each group.
@@ -111,13 +112,13 @@ The second reason that correlation does not imply causation is called the third-
 ---
 name: fig:NickCage
 ---
-For some excellent and funny examples of correlations that almost certainly do not show causation, enjoy the strange correlations [found at this site](http://www.tylervigen.com).
+For some excellent and funny examples of correlations that almost certainly do not show causation, enjoy the strange correlations found at [this site](http://www.tylervigen.com).
 ```
 
 
 ### "Lots of Candy Could Lead to Violence"
 
-Although researchers in psychology know that correlations are not equivalnet to causation, many journalists seemingly do not. [One website about correlation and causation](http://jonathan.mueller.faculty.noctrl.edu/100/ correlation_or_causation.htm), links to dozens of media reports about real biomedical and psychological research. Many of the headlines suggest that a causal relationship has been demonstrated, when a careful reading of the articles shows that it has not because of the directionality and third-variable problems.
+Although researchers in psychology know that correlations are not equivalnet to causation, many journalists seemingly do not. [One website about correlation and causation](http://jonathan.mueller.faculty.noctrl.edu/100/correlation_or_causation.htm), links to dozens of media reports about real biomedical and psychological research. Many of the headlines suggest that a causal relationship has been demonstrated, when a careful reading of the articles shows that it has not because of the directionality and third-variable problems.
 
 One such article is about a study showing that children who ate candy every day were more likely than other children to be arrested for a violent offense later in life. But could candy really "lead to" violence, as the headline suggests? What alternative explanations can you think of for this statistical relationship? How could the headline be rewritten so that it is not misleading?
 
@@ -151,7 +152,7 @@ As we will see later in the book, there are various ways that researchers addres
 
 ## Generating Good Research Questions
 
-##### Learning Objectives
+### Learning Objectives
 
 1.  Describe some common sources of research ideas and generate research ideas using those sources.
 
@@ -285,7 +286,7 @@ Scholarly books are books written by researchers and practitioners mainly for us
 
 ### Literature Search Strategies
 
-### Using PsycINFO and Other Databases
+#### Using PsycINFO and Other Databases
 
 The primary method used to search the research literature involves using one or more electronic databases. These include Academic Search Premier, JSTOR, and ProQuest for all academic disciplines, ERIC for education, and PubMed for medicine and related fields. The most important for our purposes, however, is PsycINFO, which is produced by the APA. PsycINFO is so comprehensive - covering thousands of professional journals and scholarly books going back more than 100 years - that for most purposes its content is synonymous with the research literature in psychology. Like most such databases, PsycINFO is usually available through your university library.
 
@@ -298,11 +299,11 @@ Given that there are nearly four million records in PsycINFO, you may have to tr
 
 Depending on the vendor that provides the interface to PsycINFO, you may be able to save, print, or e-mail the relevant PsycINFO records. The records might even contain links to full-text copies of the works themselves.
 
-### Using Other Search Techniques
+#### Using Other Search Techniques
 
 In addition to entering search terms into PsycINFO and other databases, there are several other techniques you can use to search the research literature. First, if you have one good article or book chapter on your topic—a recent review article is best—you can look through the reference list of that article for other relevant articles, books, and book chapters. In fact, you should do this with any relevant article or book chapter you find. You can also start with a classic article or book chapter on your topic, find its record in PsycINFO (by entering the author's name or article's title as a search term), and link from there to a list of other works in PsycINFO that cite that classic article. This works because other researchers working on your topic are likely to be aware of the classic article and cite it in their own work. You can also do a general Internet search using search terms related to your topic or the name of a researcher who conducts research on your topic. This might lead you directly to works that are part of the research literature (e.g., articles in open-access journals or posted on researchers' own websites).
 
-### Google Scholar
+#### Google Scholar
 
 The search engine [Google Scholar](https://scholar.google.com) is especially useful alternative to PsycInfo and other databases. Many researchers rely almost exclusively on Google Scholar because you it maintains a comprehensive list of nearly all published work in all fields, including by not limited to psychology. It's also easier to search and navigate that many other databases.
 
@@ -337,7 +338,7 @@ Second, you should look for review articles on your topic because they will prov
 
 How many sources are enough for your literature review? This is a difficult question because it depends on how extensively your topic has been studied and also on your own goals. One study found that across a variety of professional journals in psychology, the average number of sources cited per article was about 50 {cite}`adair_explosion_2003`. This gives a rough idea of what professional researchers consider to be adequate. As a student, you might be assigned a much lower minimum number of references to use, but the principles for selecting the most useful ones remain the same.
 
-### Zotero and Organizing the papers you find
+#### Zotero and Organizing the papers you find
 
 When you really start digging into the literature you will find out that it is often huge; much larger than you could have possibly imagined. This is exciting because the literature contains answers to many of the questions you might have. So, you get the benefit of reading those answers, which takes much less time than conducting the research yourself.
 

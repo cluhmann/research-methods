@@ -1,8 +1,11 @@
 # Survey Research
 
-> Everyone takes surveys. Whoever makes a statement about human behavior has engaged in a survey of some sort.
->
-> -Andrew Greeley
+```{epigraph}
+Everyone takes surveys. Whoever makes a statement about human behavior has engaged in a survey of some sort.
+
+-- Andrew Greeley
+```
+
 
 Shortly after the terrorist attacks in New York City and Washington, DC, in September of 2001, researcher Jennifer Lerner and her colleagues conducted an Internet-based survey of nearly 2,000 American teens and adults ranging in age from 13 to 88 {cite}`lerner_effects_2003`. They asked participants about their reactions to the attacks and for their judgments of various terrorism-related risks and other risks. Among the results were that the participants tended to overestimate most risks, that females did so more than males, and that there were no differences between teens and adults. The most interesting result, however, had to do with the fact that some participants were "primed" to feel anger by asking them what made them angry about the attacks and by presenting them with a photograph and audio clip intended to evoke anger. Others were primed to feel fear by asking them what made them fearful about the attacks and by presenting them with a photograph and audio clip intended to evoke fear. As the researchers hypothesized, the participants who were primed to feel anger perceived less risk than the participants who had been primed to feel fear, illustrating how risk perceptions are strongly tied to specific emotions.
 

@@ -1,10 +1,11 @@
 # Measurement
 
-> Measure what is measurable, and make measurable what is not so.
->
-> - Galileo Galilei
+```{epigraph}
+Measure what is measurable, and make measurable what is not so.
 
----
+-- Galileo Galilei
+```
+
 
 Researchers Tara MacDonald and Alanna Martineau were interested in the effect of female university students' moods on their intentions to have unprotected sexual intercourse {cite}`macdonald_self-esteem_2002`. In a carefully designed empirical study, they found that being in a negative mood increased intentions to have unprotected sex - but only for students who were low in self-esteem. Although there are many challenges involved in conducting a study like this, one of the primary ones is the measurement of the relevant variables. In this study, the researchers needed to know whether each of their participants had high or low self-esteem, which of course required measuring their self-esteem. They also needed to be sure that their attempt to put people into a negative mood (by having them think negative thoughts) was successful, which required measuring their moods. Finally, they needed to see whether self-esteem and mood were related to participants' intentions to have unprotected sexual intercourse, which required measuring these intentions.
 
@@ -72,7 +73,7 @@ The Big Five is a set of five broad dimensions that capture much of the variatio
 
 The conceptual definition of a psychological construct describes the behaviors and internal processes that make up that construct, along with how that construct relates to other constructs and variables. For example, a conceptual definition of neuroticism (another one of the Big Five) would be that it is made up of people's tendency to experience negative emotions such as anxiety, anger, and sadness across a variety of situations. This definition might also specify that neuroticism has a strong genetic component, remains fairly stable over time, and is positively correlated with the tendency to experience pain and other physical symptoms.
 
-Students sometimes wonder why, when researchers want to understand a construct like self-esteem or neuroticism, they do not simply look it up in the dictionary. One reason is that many scientific constructs do not have counterparts in everyday language (e.g., working memory capacity). More important, researchers are in the business of developing definitions that are more detailed and precise - and that more accurately describe the way the world is - than the informal definitions in the dictionary. As we will see, researchers do this by proposing conceptual definitions, testing them empirically, and revising them as necessary. Sometimes they throw them out altogether. This is why the research literature often includes different conceptual definitions of the same construct. In some cases, an older conceptual definition has been replaced by a newer one that fits and works better. In others, researchers are still in the process of deciding which of various conceptual definitions is the best.
+Students sometimes wonder why, when researchers want to understand a construct like self-esteem or neuroticism, they do not simply look it up in the dictionary. One reason is that many scientific constructs do not have counterparts in everyday language (e.g., working memory capacity). More important, researchers are in the business of developing definitions that are more detailed and precisem and that more accurately describe the way the world is, than the informal definitions in the dictionary. As we will see, researchers do this by proposing conceptual definitions, testing them empirically, and revising them as necessary. Sometimes they throw them out altogether. This is why the research literature often includes different conceptual definitions of the same construct. In some cases, an older conceptual definition has been replaced by a newer one that fits and works better. In others, researchers are still in the process of deciding which of various conceptual definitions is the best.
 
 ### Operational Definitions
 
@@ -80,7 +81,7 @@ An operational definition is a definition of a variable in terms of precisely ho
 
 For any given variable or construct, there can be multiple operational definitions. Stress is a good example. A rough conceptual definition is that stress is an adaptive response to a perceived danger or threat that involves physiological, cognitive, affective, and behavioral components. But researchers have operationally defined it in several different ways. The Social Readjustment Rating Scale is a self-report questionnaire that asks people to identify stressful events that they have experienced in the past year and assigns points for each one depending on severity. For example, a man who has been divorced (73 points), changed jobs (36 points), and had a change in sleeping habits (16 points) in the past year would have a total score of 125. The Daily Hassles and Uplifts Scale is similar but focuses on everyday stressors like misplacing things and being concerned about one’s weight. The Perceived Stress Scale is another self-report measure that focuses on people's feelings of stress (e.g., 'How often have you felt nervous and stressed?"). Researchers have also operationally defined stress in terms of several physiological variables including blood pressure and levels of the stress hormone cortisol.
 
-When psychologists use multiple operational definitions of the same construct - either within a study or across studies - they are using converging operations. The idea is that the various operational definitions are "converging" or coming together on the same construct. When scores based on several different operational definitions are closely related to each other and produce similar patterns of results, this constitutes good evidence that the construct is being measured effectively and that it is useful. The various measures of stress, for example, are all correlated with each other and have all been shown to be correlated with other variables such as immune system functioning (also measured in a variety of ways) {cite}`segerstrom_psychological_2004`. This is what allows researchers eventually to draw useful general conclusions, such as "stress is negatively correlated with immune system functioning", as opposed to more specific and less useful ones, such as "people's scores on the Perceived Stress Scale are negatively correlated with their white blood counts".
+When psychologists use multiple operational definitions of the same construct, either within a study or across studies, they are using converging operations. The idea is that the various operational definitions are "converging" or coming together on the same construct. When scores based on several different operational definitions are closely related to each other and produce similar patterns of results, this constitutes good evidence that the construct is being measured effectively and that it is useful. The various measures of stress, for example, are all correlated with each other and have all been shown to be correlated with other variables such as immune system functioning (also measured in a variety of ways) {cite}`segerstrom_psychological_2004`. This is what allows researchers eventually to draw useful general conclusions, such as "stress is negatively correlated with immune system functioning", as opposed to more specific and less useful ones, such as "people's scores on the Perceived Stress Scale are negatively correlated with their white blood counts".
 
 ### Levels of Measurement
 
@@ -122,7 +123,7 @@ Stevens's levels of measurement are important for at least two reasons. First, t
 
 -   For any conceptual definition of a construct, there will be many different operational definitions or ways of measuring it. The use of multiple operational definitions, or converging operations, is a common strategy in psychological research.
 
--   There are four scales of measurement - nominal, ordinal, interval, and ratio - that communicate increasing amounts of quantitative information. The scale of measurement affects the kinds of statistics you can use and conclusions you can draw from your data.
+-   There are four scales of measurement (nominal, ordinal, interval, and ratio) that communicate increasing amounts of quantitative information. The scale of measurement affects the kinds of statistics you can use and conclusions you can draw from your data.
 
 ### Exercises
 

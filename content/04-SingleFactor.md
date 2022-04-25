@@ -1,8 +1,10 @@
 # Single Factor Experiments
 
-> To call in the statistician after the experiment is done may be no more than asking him to perform a post-mortem examination: he may be able to say what the experiment died of.
->
-> -Ronald Fisher
+```{epigraph}
+To call in the statistician after the experiment is done may be no more than asking him to perform a post-mortem examination: he may be able to say what the experiment died of.
+
+-- Ronald Fisher
+```
 
 ## Experiments in a nutshell
 

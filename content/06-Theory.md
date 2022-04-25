@@ -1,8 +1,12 @@
 # Theory in Psychology
 
-> It doesn’t matter how beautiful your theory is, it doesn’t matter how smart you are. If it doesn’t agree with experiment, it’s wrong.
->
-> - Richard P. Feynman
+
+```{epigraph}
+It doesn’t matter how beautiful your theory is, it doesn’t matter how smart you are. If it doesn’t agree with experiment, it’s wrong.
+
+-- Richard P. Feynman
+```
+
 
 In the following paragraph, researchers Sherlock Campbell and James Pennebaker describe a remarkable statistical relationship.
 

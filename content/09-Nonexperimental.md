@@ -1,8 +1,10 @@
 # Nonexperimental Research
 
-> The commonality between science and art is in trying to see profoundly - to develop strategies of seeing and showing
->
-> -Edward Tufte
+```{epigraph}
+The commonality between science and art is in trying to see profoundly - to develop strategies of seeing and showing.
+
+-- Edward Tufte
+```
 
 What do the following classic studies have in common?
 

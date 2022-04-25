@@ -1,8 +1,10 @@
 # Single Subject Research
 
->Mental events, it is said, are not passive happenings but the acts of a subject.
->
-> -Hermann Ebbinghaus
+```{epigraph}
+Mental events, it is said, are not passive happenings but the acts of a subject.
+
+-- Hermann Ebbinghaus
+```
 
 Researcher Vance Hall and his colleagues were faced with the challenge of increasing the extent to which six disruptive elementary school students stayed focused on their schoolwork {cite}`hall_effects_1968`. For each of several days, the researchers carefully recorded whether or not each student was doing schoolwork every 10 seconds during a 30-minute period. Once they had established this baseline, they introduced a treatment. The treatment was that when the student was doing schoolwork, the teacher gave him or her positive attention in the form of a comment like "good work" or a pat on the shoulder. The result was that all of the students dramatically increased their time spent on schoolwork and decreased their disruptive behavior during this treatment phase. For example, a student named Robbie originally spent 25% of his time on schoolwork and the other 75% "snapping rubber bands, playing with toys from his pocket, and talking and laughing with peers" (p. 3). During the treatment phase, however, he spent 71% of his time on schoolwork and only 29% on other activities. Finally, when the researchers had the teacher stop giving positive attention, the students all decreased their studying and increased their disruptive behavior. This suggested that it was the positive attention that was responsible for the increase in studying. This was one of the first studies to show that attending to positive behavior, and ignoring negative behavior, could be a quick and effective way to deal with problem behavior in an applied setting.
 
@@ -10,7 +12,7 @@ Most of this textbook is about what can be called group research, which typicall
 
 ## Overview of Single-Subject Research
 
-##### Learning Objectives
+### Learning Objectives
 
 1.  Explain what single-subject research is, including how it differs from other types of psychological research.
 
@@ -81,7 +83,7 @@ Although most contemporary single-subject research is conducted from the behavio
 
 ## Single-Subject Research Designs
 
-##### Learning Objectives
+### Learning Objectives
 
 1.  Describe the basic elements of a single-subject research design.
 
