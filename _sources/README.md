@@ -1,8 +1,9 @@
 # Research Methods in Psychology
 
-This is a fork of the free and open source textbook _Research Methods in Psychology_ (full credits below).  This version of the book, the Stony Brook edition, is a [Jupyter Book](https://jupyterbook.org) version of [the bookdown version](https://github.com/CrumpLab/ResearchMethods) created by [Matthew Crump](https://crumplab.github.io).  Beyond the Jupyter Book formatting, this edition also reflects additional changes to the content itself.  Please see the revision history in this repo if you are interested in what revisions have been made since editions.
+This is a fork of the free and open source textbook _Research Methods in Psychology_ (full credits below).  This version of the book, the Stony Brook edition, is a [Jupyter Book](https://jupyterbook.org) version of [the bookdown version](https://github.com/CrumpLab/ResearchMethods) created by [Matthew Crump](https://crumplab.github.io).  Beyond the Jupyter Book formatting, this edition also reflects additional changes to the content itself.  Please see the revision history in this repo if you are interested in what revisions have been made since prior editions.
 
-
+The published book can be found here:
+<https://cluhmann.github.io/research-methods>
 
 
 ## Credits
