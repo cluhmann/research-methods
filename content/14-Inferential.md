@@ -1,16 +1,24 @@
 # Inferential Statistics
 
-The great tragedy of science - the slaying of a beautiful hypothesis by an ugly fact. Thomas Huxley
+```{epigraph}
+The great tragedy of science - the slaying of a beautiful hypothesis by an ugly fact. 
 
-Truth in science can be defined as the working hypothesis best suited to open the way to the next better one. Konrad Lorenz
+-- Thomas Huxley
+```
 
-Recall that Matthias Mehl and his colleagues, in their study of sex differences in talkativeness, found that the women in their sample spoke a mean of 16,215 words per day and the men a mean of 15,669 words per day {cite}`mehl_are_2007`. But despite this sex difference in their sample, they concluded that there was no evidence of a sex difference in talkativeness in the population. Recall also that Allen Kanner and his colleagues, in their study of the relationship between daily hassles and symptoms, found a correlation of +.60 in their sample {cite}`kanner_comparison_1981`. But they concluded that this finding means there is a relationship between hassles and symptoms in the population. This assertion raises the question of how researchers can say whether their sample result reflects something that is true of the population.
+```{epigraph}
+Truth in science can be defined as the working hypothesis best suited to open the way to the next better one.
 
-The answer to this question is that they use a set of techniques called inferential statistics, which is what this chapter is about. We focus, in particular, on null hypothesis testing, the most common approach to inferential statistics in psychological research. We begin with a conceptual overview of null hypothesis testing, including its purpose and basic logic. Then we look at several null hypothesis testing techniques for drawing conclusions about differences between means and about correlations between quantitative variables. Finally, we consider a few other important ideas related to null hypothesis testing, including some that can be helpful in planning new studies and interpreting results. We also look at some long-standing criticisms of null hypothesis testing and some ways of dealing with these criticisms.
+-- Konrad Lorenz
+```
+
+Recall that Matthias Mehl and his colleagues, in their study of sex differences in talkativeness, found that the women in their sample spoke a mean of 16,215 words per day and the men a mean of 15,669 words per day {cite}`mehl_are_2007`. But despite observing this difference in their sample, they concluded that there was no evidence of a sex difference in talkativeness in the population. Recall also that Allen Kanner and his colleagues, in their study of the relationship between daily hassles and symptoms, found a correlation of 0.6 in their sample {cite}`kanner_comparison_1981`. But they concluded that this finding implied a relationship between hassles and symptoms in the population. These examples raise questions about how researchers can draw conclusions about the population based on results from their sample.
+
+To answer such questions, researchers use a set of techniques called inferential statistics, which is what this chapter is about.  We focus, in particular, on null hypothesis testing, the most common approach to inferential statistics in psychological research. We begin with a conceptual overview of null hypothesis testing, including its purpose and basic logic. Then we look at several null hypothesis testing techniques that allow conclusions about differences between means and about correlations between quantitative variables. Finally, we consider a few other important ideas related to null hypothesis testing, including some that can be helpful in planning new studies and interpreting results. We also look at some long-standing criticisms of null hypothesis testing and some ways of dealing with these criticisms.
 
 ## Understanding Null Hypothesis Testing
 
-##### Learning Objectives
+### Learning Objectives
 
 1.  Explain the purpose of null hypothesis testing, including the role of sampling error.
 
@@ -20,23 +28,23 @@ The answer to this question is that they use a set of techniques called inferent
 
 ### The Purpose of Null Hypothesis Testing
 
-As we have seen, psychological research typically involves measuring one or more variables for a sample and computing descriptive statistics for that sample. In general, however, the researcher’s goal is not to draw conclusions about that sample but to draw conclusions about the population that the sample was selected from. Thus researchers must use sample statistics to draw conclusions about the corresponding values in the population. These corresponding values in the population are called parameters. Imagine, for example, that a researcher measures the number of depressive symptoms exhibited by each of 50 clinically depressed adults and computes the mean number of symptoms. The researcher probably wants to use this sample statistic (the mean number of symptoms for the sample) to draw conclusions about the corresponding population parameter (the mean number of symptoms for clinically depressed adults).
+As we have seen, psychological research typically involves measuring one or more variables within a sample and computing descriptive statistics. In general, however, the researcher's goal is not to draw conclusions about the participants in that sample, but rather to draw conclusions about the population from which those participants were selected. Thus, researchers must use sample statistics to draw conclusions about the corresponding values in the population. These corresponding values in the population are called parameters. Imagine, for example, that a researcher measures the number of depressive symptoms exhibited by each of 50 clinically depressed adults and computes the mean number of symptoms. The researcher probably wants to use this sample statistic (the mean number of symptoms for the sample) to draw conclusions about the corresponding population parameter (the mean number of symptoms for clinically depressed adults).
 
-Unfortunately, sample statistics are not perfect estimates of their corresponding population parameters. This is because there is a certain amount of random variability in any statistic from sample to sample. The mean number of depressive symptoms might be 8.73 in one sample of clinically depressed adults, 6.45 in a second sample, and 9.44 in a third—even though these samples are selected randomly from the same population. Similarly, the correlation (Pearson’s r) between two variables might be +.24 in one sample, -.04 in a second sample, and +.15 in a third—again, even though these samples are selected randomly from the same population. This random variability in a statistic from sample to sample is called sampling error. (Note that the term error here refers to random variability and does not imply that anyone has made a mistake. No one “commits a sampling error.”)
+Unfortunately, sample statistics are not perfect estimates of their corresponding population parameters. This is because there is a certain amount of random variability in any statistic from sample to sample. The mean number of depressive symptoms might be 8.73 in one sample of clinically depressed adults, 6.45 in a second sample, and 9.44 in a third.  This will happen even though these samples are randomly selected from the same population. Similarly, the correlation (e.g., Pearson's r) between two variables might be 0.24 in one sample, -0.04 in a second sample, and 0.15 in a third.  Again, this can and will happen even though these samples are selected randomly from the same population. This random variability in statistics calculated from sample to sample is called sampling error.  Note that the term **error** here refers to the statistical notion of error, or random variability, and does not imply that anyone has made a mistake. No one "commits a sampling error".
 
-One implication of this is that when there is a statistical relationship in a sample, it is not always clear that there is a statistical relationship in the population. A small difference between two group means in a sample might indicate that there is a small difference between the two group means in the population. But it could also be that there is no difference between the means in the population and that the difference in the sample is just a matter of sampling error. Similarly, a Pearson’s r value of -.29 in a sample might mean that there is a negative relationship in the population. But it could also be that there is no relationship in the population and that the relationship in the sample is just a matter of sampling error.
+One implication of this is that when there is a statistical relationship in a sample, it is not always clear whether there is a statistical relationship in the population. A small difference between two group means in a sample might indicate that there is a small difference between the two group means in the population. But it could also be that there is no difference between the means in the population and that the difference in the sample is just a matter of sampling error. Similarly, a Pearson's _r_ value of -0.29 in a sample might mean that there is a negative relationship in the population. But it could also be that there is no relationship in the population and that the relationship in the sample is just a matter of sampling error.
 
-In fact, any statistical relationship in a sample can be interpreted in two ways:
+In fact, any relationship observed in a sample can be interpreted in two ways:
 
 -   There is a relationship in the population, and the relationship in the sample reflects this.
 
 -   There is no relationship in the population, and the relationship in the sample reflects only sampling error.
 
-The purpose of null hypothesis testing is simply to help researchers decide between these two interpretations.
+The purpose of inferential statistics is simply to help researchers decide between these two interpretations.
 
 ### The Logic of Null Hypothesis Testing
 
-Null hypothesis testing is a formal approach to deciding between two interpretations of a statistical relationship in a sample. One interpretation is called the null hypothesis (often symbolized H0 and read as “H-naught”). This is the idea that there is no relationship in the population and that the relationship in the sample reflects only sampling error. Informally, the null hypothesis is that the sample relationship “occurred by chance.” The other interpretation is called the alternative hypothesis (often symbolized as H1). This is the idea that there is a relationship in the population and that the relationship in the sample reflects this relationship in the population.
+Null hypothesis testing (or NHST) is a formal approach to making decisions between these two interpretations. One interpretation is called the null hypothesis (often symbolized $H_0$ and read as "H-naught"). This is the idea that there is no relationship in the population and that the relationship in the sample reflects only sampling error. Informally, the null hypothesis is that the sample relationship "occurred by chance". The other interpretation is called the alternative hypothesis (often symbolized as $H_1$). This is the idea that there is a relationship in the population and that the relationship in the sample reflects this relationship in the population.
 
 Again, every statistical relationship in a sample can be interpreted in either of these two ways: It might have occurred by chance, or it might reflect a relationship in the population. So researchers need a way to decide between them. Although there are many specific null hypothesis testing techniques, they are all based on the same general logic. The steps are as follows:
 
