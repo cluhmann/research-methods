@@ -356,40 +356,42 @@
     <a class="reference internal nav-link" href="#anova-elaborations">
      14.2.12. ANOVA Elaborations
     </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#post-hoc-comparisons">
-     14.2.13. Post Hoc Comparisons
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#repeated-measures-anova">
-     14.2.14. Repeated-Measures ANOVA
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#factorial-anova">
-     14.2.15. Factorial ANOVA
-    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#post-hoc-comparisons">
+       14.2.12.1. Post Hoc Comparisons
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#repeated-measures-anova">
+       14.2.12.2. Repeated-Measures ANOVA
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#factorial-anova">
+       14.2.12.3. Factorial ANOVA
+      </a>
+     </li>
+    </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#testing-pearsons-r">
-     14.2.16. Testing Pearson’s r
+     14.2.13. Testing Pearson’s r
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#example-test-of-pearsons-r">
-     14.2.17. Example Test of Pearson’s r
+     14.2.14. Example Test of Pearson’s r
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id6">
-     14.2.18. Key Takeaways
+     14.2.15. Key Takeaways
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id7">
-     14.2.19. Exercises
+     14.2.16. Exercises
     </a>
    </li>
   </ul>
@@ -1036,22 +1038,22 @@
 </div>
 <div class="section" id="anova-elaborations">
 <h3><span class="section-number">14.2.12. </span>ANOVA Elaborations<a class="headerlink" href="#anova-elaborations" title="Permalink to this headline">¶</a></h3>
-</div>
 <div class="section" id="post-hoc-comparisons">
-<h3><span class="section-number">14.2.13. </span>Post Hoc Comparisons<a class="headerlink" href="#post-hoc-comparisons" title="Permalink to this headline">¶</a></h3>
+<h4><span class="section-number">14.2.12.1. </span>Post Hoc Comparisons<a class="headerlink" href="#post-hoc-comparisons" title="Permalink to this headline">¶</a></h4>
 <p>When we reject the null hypothesis in a one-way ANOVA, we conclude that the group means are not all the same in the population. But this can indicate different things. With three groups, it can indicate that all three means are significantly different from each other. Or it can indicate that one of the means is significantly different from the other two, but the other two are not significantly different from each other. It could be, for example, that the mean calorie estimates of psychology majors, nutrition majors, and dieticians are all significantly different from each other. Or it could be that the mean for dieticians is significantly different from the means for psychology and nutrition majors, but the means for psychology and nutrition majors are not significantly different from each other. For this reason, statistically significant one-way ANOVA results are typically followed up with a series of post hoc comparisons of selected pairs of group means to determine which are different from which others.</p>
 <p>One approach to post hoc comparisons would be to conduct a series of independent-samples t tests comparing each group mean to each of the other group means. But there is a problem with this approach. In general, if we conduct a t test when the null hypothesis is true, we have a 5% chance of mistakenly rejecting the null hypothesis. If we conduct several t tests when the null hypothesis is true, the chance of mistakenly rejecting at least one null hypothesis <strong>increases</strong> with each test we conduct. Thus, researchers do not usually make post hoc comparisons using standard t tests because there is too great a chance that they will mistakenly reject at least one null hypothesis. Instead, they use one of several modified t test procedures, including the Bonferonni procedure, Fisher’s least significant difference (LSD) test, and Tukey’s honestly significant difference (HSD) test. The details of these approaches are beyond the scope of this book, but it is important to understand their purpose. It is to keep the risk of mistakenly rejecting a true null hypothesis to an acceptable level (close to 5%).</p>
 </div>
 <div class="section" id="repeated-measures-anova">
-<h3><span class="section-number">14.2.14. </span>Repeated-Measures ANOVA<a class="headerlink" href="#repeated-measures-anova" title="Permalink to this headline">¶</a></h3>
+<h4><span class="section-number">14.2.12.2. </span>Repeated-Measures ANOVA<a class="headerlink" href="#repeated-measures-anova" title="Permalink to this headline">¶</a></h4>
 <p>Recall that the one-way ANOVA is appropriate for between-subjects designs in which the means being compared come from separate groups of participants. It is not appropriate for within-subjects designs in which the means being compared come from the same participants tested under different conditions or at different times. This requires a slightly different approach, called the repeated-measures ANOVA. The basics of the repeated-measures ANOVA are the same as for the one-way ANOVA. The main difference is that measuring the dependent variable multiple times for each participant allows for a more refined measure of <span class="math notranslate nohighlight">\(MS_W\)</span>. Imagine, for example, that the dependent variable in a study is a measure of reaction time. Some participants will be faster or slower than others overall.  This may be because of stable individual differences in their nervous systems, muscles, and other factors. In a between-subjects design, these stable individual differences would simply add to the variability within the groups and increase the value of <span class="math notranslate nohighlight">\(MS_W\)</span>. In a within-subjects design, however, these stable individual differences can be measured and subtracted from the value of <span class="math notranslate nohighlight">\(MS_W\)</span>. This lower value of <span class="math notranslate nohighlight">\(MS_W\)</span> means a higher value of F and a more sensitive test.</p>
 </div>
 <div class="section" id="factorial-anova">
-<h3><span class="section-number">14.2.15. </span>Factorial ANOVA<a class="headerlink" href="#factorial-anova" title="Permalink to this headline">¶</a></h3>
+<h4><span class="section-number">14.2.12.3. </span>Factorial ANOVA<a class="headerlink" href="#factorial-anova" title="Permalink to this headline">¶</a></h4>
 <p>When more than one independent variable is included in a factorial design, the appropriate approach is the factorial ANOVA. Again, the basics of the factorial ANOVA are the same as for the one-way and repeated- measures ANOVAs. The main difference is that it produces an F ratio and p value for each main effect and for each interaction. Returning to our calorie estimation example, imagine that the health psychologist tests the effect of participant major (psychology vs. nutrition) and food type (cookie vs. hamburger) in a factorial design. A factorial ANOVA would produce separate F ratios and p values for the main effect of major, the main effect of food type, and the interaction between major and food. Appropriate modifications must be made depending on whether the design is between subjects, within subjects, or mixed.</p>
 </div>
+</div>
 <div class="section" id="testing-pearsons-r">
-<h3><span class="section-number">14.2.16. </span>Testing Pearson’s r<a class="headerlink" href="#testing-pearsons-r" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">14.2.13. </span>Testing Pearson’s r<a class="headerlink" href="#testing-pearsons-r" title="Permalink to this headline">¶</a></h3>
 <p>For relationships between quantitative variables, where Pearson’s r is used to describe the strength of those relationships, the appropriate null hypothesis test is a test of Pearson’s r. The basic logic is exactly the same as for other null hypothesis tests. In this case, the null hypothesis is that there is no relationship in the population. We can use the Greek lowercase rho (<span class="math notranslate nohighlight">\(\rho\)</span>) to represent the relevant parameter: <span class="math notranslate nohighlight">\(\rho = 0\)</span>. The alternative hypothesis is that there is a relationship in the population: <span class="math notranslate nohighlight">\(\rho \neq 0\)</span>. As with the t test, this test can be two-tailed if the researcher has no expectation about the direction of the relationship or one-tailed if the researcher expects the relationship to go in a particular direction.</p>
 <p>It is possible to use Pearson’s r for the sample to compute a t score with N - 2 degrees of freedom and then to proceed as for a t test. However, because of the way it is computed, Pearson’s r can also be treated as its own test statistic. The online statistical tools and statistical software such as Excel and SPSS generally compute Pearson’s r and provide the p value associated with that value of Pearson’s r. As always, if the p value is less than .05, we reject the null hypothesis and conclude that there is a relationship between the variables in the population. If the p value is greater than .05, we retain the null hypothesis and conclude that there is not enough evidence to say there is a relationship in the population. If we compute Pearson’s r by hand, we can use a table like the one below, which shows the critical values of r for various samples sizes when <span class="math notranslate nohighlight">\(\alpha\)</span> is .05. A sample value of Pearson’s r that is more extreme than the critical value is statistically significant.</p>
 <table class="colwidths-auto table">
@@ -1146,11 +1148,11 @@
 </table>
 </div>
 <div class="section" id="example-test-of-pearsons-r">
-<h3><span class="section-number">14.2.17. </span>Example Test of Pearson’s r<a class="headerlink" href="#example-test-of-pearsons-r" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">14.2.14. </span>Example Test of Pearson’s r<a class="headerlink" href="#example-test-of-pearsons-r" title="Permalink to this headline">¶</a></h3>
 <p>Imagine that the health psychologist is interested in the correlation between people’s calorie estimates and their weight. He has no expectation about the direction of the relationship, so he decides to conduct a two-tailed test. He computes the correlation for a sample of 22 university students and finds that Pearson’s r is -0.21. The statistical software he uses tells him that the p value is 0.348. It is greater than .05, so he cannot reject the null hypothesis and concludes that there is not enough evidence to suggest a relationship between people’s calorie estimates and their weight. If he were to compute Pearson’s r by hand, he could look at the table above and see that the critical value for 22 - 2 = 20 degrees of freedom is .444. The fact that Pearson’s r for the sample is less extreme than this critical value tells him that the p value is greater than .05 and that he should retain the null hypothesis.</p>
 </div>
 <div class="section" id="id6">
-<h3><span class="section-number">14.2.18. </span>Key Takeaways<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">14.2.15. </span>Key Takeaways<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>To compare two means, the most common null hypothesis test is the t test. The one-sample t test is used for comparing one sample mean with a hypothetical population mean of interest, the dependent-samples t test is used to compare two means in a within-subjects design, and the independent-samples t test is used to compare two means in a between-subjects design.</p></li>
 <li><p>To compare more than two means, the most common null hypothesis test is the analysis of variance (ANOVA). The one-way ANOVA is used for between-subjects designs with one independent variable, the repeated-measures ANOVA is used for within-subjects designs, and the factorial ANOVA is used for factorial designs.</p></li>
@@ -1158,7 +1160,7 @@
 </ul>
 </div>
 <div class="section" id="id7">
-<h3><span class="section-number">14.2.19. </span>Exercises<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">14.2.16. </span>Exercises<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <ol>
 <li><p>Practice: Use one of the online tools, Excel, or SPSS to reproduce the one-sample t test, dependent-samples t test, independent-samples t test, and one-way ANOVA for the four sets of calorie estimation data presented in this section.</p></li>
 <li><p>Practice: A sample of 25 university students rated their friendliness on a scale of 1 (Much Lower Than Average) to 7 (Much Higher Than Average). Their mean rating was 5.30 with a standard deviation of 1.50. Conduct a one-sample t test comparing their mean rating with a hypothetical mean rating of 4 (Average). The question is whether university students have a tendency to rate themselves as friendlier than average.</p></li>
